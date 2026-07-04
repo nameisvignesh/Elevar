@@ -38,3 +38,139 @@ We don't just make things look pretty; we make them perform. From strategy to pu
 ---
 
 ## 📁 Project Structure
+Elevar/
+├── app/
+│ ├── layout.tsx # Root layout with navigation
+│ └── page.tsx # Homepage
+├── assets/
+│ └── selected-work/ # Video projects (Git LFS)
+│ ├── Family friend_Out.mp4
+│ ├── Final Out Tiles.mp4
+│ └── NanoTiles-.mp4
+├── public/ # Public assets
+│ ├── favicon.ico
+│ └── images/
+├── components/ # Reusable UI components
+│ ├── Navigation.tsx
+│ ├── Services.tsx
+│ ├── Process.tsx
+│ ├── Testimonials.tsx
+│ └── Footer.tsx
+├── styles.css # Global styles
+├── next.config.mjs # Next.js configuration
+├── tsconfig.json # TypeScript configuration
+├── package.json # Dependencies
+└── .gitignore # Git ignored files
+
+
+---
+
+## 🎨 Brand Colors & Design
+
+### Brand Colors
+Primary: #1a1a1a (Dark)
+Accent: #c9a84c (Gold)
+Background: #ffffff (White)
+
+
+### Typography
+- **Headings**: Inter / System fonts
+- **Body**: Inter / System fonts
+
+### Tagline
+> "Content systems for founders"
+
+---
+
+## 🛠️ Services We Offer
+
+| Service | Description |
+|---------|-------------|
+| **Video Editing** | Retention-focused editing that makes every scrolling idea easier to understand |
+| **Content Strategy** | Custom roadmaps for founders who need authority without content chaos |
+| **AI Production** | AI-assisted scripts, ideation, research, and campaign systems with human taste |
+| **Social Management** | Full-scale calendar, publishing, and platform care across your active channels |
+| **Brand Content** | Conversion-minded content designed to sell products and services directly |
+| **Custom Bundle** | A tailored solution for unique growth goals |
+
+---
+
+## 🔄 Our 8-Step Process
+
+| # | Step | Description |
+|---|------|-------------|
+| 01 | **Business Discovery** | Unpack goals, offer, ICP, conversion gaps, and the brand voice that should lead the system |
+| 02 | **Strategy** | A content and positioning plan built around sharp hooks, repeatable themes, and offer clarity |
+| 03 | **Script Writing** | Psychology-backed scripts focused on retention, authority, and action |
+| 04 | **Pre-Production** | Shot lists, references, assets, and timelines prepared before production starts |
+| 05 | **Production** | High-end capture direction using practical lighting, clean frames, and energetic pacing |
+| 06 | **Post Production** | Editing, sound design, color, motion graphics, and fast platform-ready exports |
+| 07 | **Publishing** | SEO optimization, thumbnails, captions, scheduling, and reach-focused rollout |
+| 08 | **Growth Analysis** | Performance audits that make each month smarter than the last |
+
+---
+
+## 🚀 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **Next.js 15** | React framework for production |
+| **TypeScript** | Static type checking |
+| **React** | UI library |
+| **CSS** | Custom styling |
+| **Git LFS** | Large file management |
+
+---
+
+## 📦 Installation
+
+### Prerequisites
+- Node.js 18+ installed
+- npm, yarn, or pnpm package manager
+
+### Setup
+
+#bash
+# Clone the repository
+git clone https://github.com/nameisvignesh/Elevar.git
+cd Elevar
+
+# Install dependencies
+npm install
+# or
+yarn install
+
+# Run development server
+npm run dev
+# or
+yarn dev
+
+# Open browser at http://localhost:3000
+
+##🏗️ Build for Production
+# Create production build
+npm run build
+
+# Start production server
+npm start
+
+##🎬 Managing Videos with Git LFS
+# Track new video files
+git lfs track "*.mp4"
+git lfs track "*.mov"
+
+# Add and commit
+git add assets/selected-work/new-video.mp4
+git commit -m "Add new video asset"
+git push origin main
+#Note: GitHub LFS free tier: 1 GB storage. Current usage: ~778 MB.
+
+## 📊 Performance Metrics
+
+| Metric | Status |
+|--------|--------|
+| **SEO** | ✅ Optimized |
+| **Mobile Responsive** | ✅ Yes |
+| **Core Web Vitals** | ✅ Green |
+| **Accessibility** | ✅ Good |
+| **Load Speed** | ✅ Fast |
