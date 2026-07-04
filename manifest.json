@@ -1,0 +1,9 @@
+{
+  "name": "Elevar",
+  "short_name": "Elevar",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#060816",
+  "theme_color": "#060816",
+  "icons": []
+}

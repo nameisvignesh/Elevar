@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="description" content="Elevar is a boutique personal brand studio crafting sharp digital stories and smart launch systems." />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Elevar — Personal Brand Studio</title>
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+    <button class="chat-bubble" id="chatToggle" aria-label="Open Elevar assistant">✦</button>
+
+    <div class="chat-panel" id="chatPanel" aria-live="polite">
+      <div class="chat-panel__header">
+        <div>
+          <p class="eyebrow">Elevar AI</p>
+          <h3>Need a quick answer?</h3>
+        </div>
+        <button class="icon-btn" id="chatClose" aria-label="Close chat">×</button>
+      </div>
+      <div class="chat-panel__body">
+        <div class="chat-bubble-item">We help founders turn personal brands into demand.</div>
+        <div class="chat-bubble-item alt">Want to see our process or book a call?</div>
+      </div>
+      <a class="btn btn--small" href="#book-call" data-route="book-call">Start booking</a>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" data-route="home" aria-label="Elevar home">
+        <img class="brand-mark" src="Assets/images/logo.jpeg" alt="Elevar logo" />
+        <span>Elevar</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#home" data-route="home">Home</a>
+        <a href="#selected-work" data-route="selected-work">Selected Work</a>
+        <a href="#book-call" data-route="book-call">Book a Call</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">☀</button>
+        <button class="icon-btn" id="installButton" aria-label="Install Elevar web app">⬇</button>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <section class="page is-active" id="home" data-page="home">
+        <div class="hero reveal">
+          <div class="hero__copy">
+            <p class="eyebrow">Built for founders who want to be known.</p>
+            <h1>We turn personal brand energy into a sharper digital presence.</h1>
+            <p class="hero__text">Elevar crafts modern launches, content systems, and strategic positioning that feel premium without the noise.</p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#book-call" data-route="book-call">Book a call</a>
+              <a class="btn btn--secondary" href="#selected-work" data-route="selected-work">See our work</a>
+              <button class="btn btn--ghost" id="customBundleBtn">Build a custom bundle</button>
+            </div>
+          </div>
+          <div class="hero__card reveal">
+            <img src="Assets/images/founder.jpeg" alt="Founder portrait" />
+            <div class="hero__card-content">
+              <p class="eyebrow">Fast, focused, founder-first</p>
+              <h3>One partner. Zero clutter.</h3>
+              <p>From launch strategy to story systems, we keep the process lean and the outcomes memorable.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-grid reveal">
+          <article class="stat-card glass-card">
+            <h3>4-week sprint</h3>
+            <p>Rapid positioning and launch strategy.</p>
+          </article>
+          <article class="stat-card glass-card">
+            <h3>3x calmer</h3>
+            <p>Less noise, more clarity for your audience.</p>
+          </article>
+          <article class="stat-card glass-card">
+            <h3>100% tailored</h3>
+            <p>Every brand system is built around your voice.</p>
+          </article>
+        </div>
+
+        <div class="content-grid reveal">
+          <section class="glass-card service-card hover-card">
+            <p class="eyebrow">Offerings</p>
+            <h3>Launch systems that feel cinematic.</h3>
+            <p>We design brand direction, content systems, and conversion moments that make your next launch easy to remember.</p>
+          </section>
+          <section class="glass-card service-card hover-card">
+            <p class="eyebrow">Method</p>
+            <h3>Fast decisions, thoughtful systems.</h3>
+            <p>We keep the process sharp with strategy, story, and design decisions built to ship quickly.</p>
+          </section>
+          <section class="glass-card service-card hover-card">
+            <p class="eyebrow">Outcome</p>
+            <h3>More trust and better momentum.</h3>
+            <p>Your content starts feeling coherent, your profile becomes memorable, and your offers become easier to buy.</p>
+          </section>
+        </div>
+      </section>
+
+      <section class="page" id="selected-work" data-page="selected-work">
+        <div class="page-intro reveal">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Quietly bold stories that move attention.</h2>
+          <p>Each launch is shaped for clarity, motion, and a sense of momentum.</p>
+        </div>
+        <div class="stacked-video-list reveal">
+          <article class="video-card glass-card">
+            <div class="video-card__header">
+              <span>Family Friend</span>
+              <button class="video-toggle" data-video-target="video1">Unmute</button>
+            </div>
+            <video id="video1" class="work-video" autoplay loop muted playsinline poster="Assets/images/founder.jpeg">
+              <source src="Assets/selected-work/Family friend_Out.mp4" type="video/mp4" />
+            </video>
+          </article>
+          <article class="video-card glass-card">
+            <div class="video-card__header">
+              <span>Final Out Tiles</span>
+              <button class="video-toggle" data-video-target="video2">Unmute</button>
+            </div>
+            <video id="video2" class="work-video" autoplay loop muted playsinline poster="Assets/images/founder.jpeg">
+              <source src="Assets/selected-work/Final Out Tiles.mp4" type="video/mp4" />
+            </video>
+          </article>
+          <article class="video-card glass-card">
+            <div class="video-card__header">
+              <span>NanoTiles</span>
+              <button class="video-toggle" data-video-target="video3">Unmute</button>
+            </div>
+            <video id="video3" class="work-video" autoplay loop muted playsinline poster="Assets/images/founder.jpeg">
+              <source src="Assets/selected-work/NanoTiles-.mp4" type="video/mp4" />
+            </video>
+          </article>
+        </div>
+      </section>
+
+      <section class="page" id="book-call" data-page="book-call">
+        <div class="page-intro reveal">
+          <p class="eyebrow">Book a call</p>
+          <h2>Tell us what you want to build next.</h2>
+          <p>We’ll shape the conversation around your goals, your voice, and the next 90 days.</p>
+        </div>
+        <div class="booking-layout reveal">
+          <form class="booking-form glass-card" id="bookingForm">
+            <div class="field-group">
+              <label for="name">Name</label>
+              <input id="name" name="name" placeholder="Asha Patel" required />
+            </div>
+            <div class="field-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="field-group">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" placeholder="+91 98765 43210" required />
+            </div>
+            <div class="field-group">
+              <label for="website">Website or LinkedIn</label>
+              <input id="website" name="website" placeholder="https://linkedin.com/in/yourname" />
+            </div>
+            <div class="field-group">
+              <label for="goal">One thing to fix in the next 90 days</label>
+              <textarea id="goal" name="goal" rows="3" placeholder="Strengthen my authority and make my offer clearer."></textarea>
+            </div>
+            <div class="field-group">
+              <label for="frustration">Biggest frustration with your personal brand</label>
+              <textarea id="frustration" name="frustration" rows="3" placeholder="I struggle to create content that feels consistent."></textarea>
+            </div>
+            <div class="field-group">
+              <label for="descriptor">What best describes you?</label>
+              <select id="descriptor" name="descriptor">
+                <option>Founder</option>
+                <option>Creator</option>
+                <option>Consultant</option>
+                <option>Coach</option>
+              </select>
+            </div>
+            <div class="field-group">
+              <label for="revenue">Current monthly business revenue</label>
+              <input id="revenue" name="revenue" placeholder="₹2,00,000" />
+            </div>
+            <button class="btn btn--primary" type="submit">Book my call</button>
+          </form>
+
+          <aside class="booking-side glass-card">
+            <div class="calendar-card">
+              <div class="calendar-card__head">
+                <div>
+                  <p class="eyebrow">Availability</p>
+                  <h3>Choose a time window</h3>
+                </div>
+                <span class="queue-pill" id="queuePill">Queue: 0</span>
+              </div>
+              <div class="day-row" id="dayRow"></div>
+              <div class="slot-grid" id="slotGrid"></div>
+            </div>
+            <div class="booking-actions">
+              <a class="btn btn--secondary" id="googleBookingsBtn" href="https://calendar.google.com/calendar/u/0/appointments/schedules/" target="_blank" rel="noreferrer">Open Google Bookings</a>
+              <p class="small-copy">Indian availability: 6:00 AM–9:00 AM and 5:00 PM–9:00 PM.</p>
+            </div>
+            <div class="confirmation" id="confirmation" aria-live="polite"></div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Elevar • Modern personal branding for ambitious founders.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
