@@ -1,7 +1,7 @@
 # 🚀 Elevar
 
 <p align="center">
-  <img src="./public/favicon.ico" alt="Elevar Logo" width="120"/>
+  <img src="./public/logo.png" alt="Elevar Logo" width="120"/>
 </p>
 
 <p align="center">
