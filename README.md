@@ -1,176 +1,427 @@
 # 🚀 Elevar
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
-[![GitHub LFS](https://img.shields.io/badge/Git%20LFS-Enabled-purple?style=for-the-badge&logo=git-lfs)](https://git-lfs.github.com/)
+<p align="center">
+  <img src="./public/favicon.ico" alt="Elevar Logo" width="120"/>
+</p>
 
-> **Content systems for founders. We don't just edit videos. We build content that grows your business.**
+<p align="center">
+  <strong>Content systems for founders.</strong><br>
+  We don't just edit videos. We build content that grows your business.
+</p>
 
----
-
-## 📖 About Elevar
-
-**Elevar** is a content agency that bridges the gap between creative artistry and business logic. We help founders break scale with premium strategy, cinematic storytelling, and efficient content systems.
-
-### 🎯 Our Mission
-To help founders break scale with premium strategy, cinematic storytelling, and efficient content systems.
-
-### 💡 Our Philosophy
-We don't just make things look pretty; we make them perform. From strategy to publishing and growth analysis, we handle the full lifecycle of high-performance business content.
-
-### 📊 Our Track Record
-- **2+** Brands Scaled
-- **35K+** Total Views
-- **Karthikeyan K** - Founder & CEO
-
----
-
-## ✨ Website Features
-
-- 🎨 **Modern UI/UX** - Clean, conversion-focused design
-- 📱 **Fully Responsive** - Optimized for all devices
-- ⚡ **Next.js 15** - Server-side rendering for performance
-- 🎯 **Lead Generation** - Built-in "Book Call" functionality
-- 📊 **Content Showcase** - Portfolio and services display
-- 🧩 **Modular Components** - Easy to maintain and extend
+<p align="center">
+  <a href="https://nextjs.org/">
+    <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" alt="Next.js">
+  </a>
+  <a href="https://www.typescriptlang.org/">
+    <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  </a>
+  <a href="https://react.dev/">
+    <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+  </a>
+  <a href="https://git-lfs.github.com/">
+    <img src="https://img.shields.io/badge/Git%20LFS-Enabled-purple?style=for-the-badge&logo=git-lfs" alt="Git LFS">
+  </a>
+</p>
 
 ---
 
-## 📁 Project Structure
-Elevar/
-├── app/
-│ ├── layout.tsx # Root layout with navigation
-│ └── page.tsx # Homepage
-├── assets/
-│ └── selected-work/ # Video projects (Git LFS)
-│ ├── Family friend_Out.mp4
-│ ├── Final Out Tiles.mp4
-│ └── NanoTiles-.mp4
-├── public/ # Public assets
-│ ├── favicon.ico
-│ └── images/
-├── components/ # Reusable UI components
-│ ├── Navigation.tsx
-│ ├── Services.tsx
-│ ├── Process.tsx
-│ ├── Testimonials.tsx
-│ └── Footer.tsx
-├── styles.css # Global styles
-├── next.config.mjs # Next.js configuration
-├── tsconfig.json # TypeScript configuration
-├── package.json # Dependencies
-└── .gitignore # Git ignored files
+# 📖 About
 
+**Elevar** is a premium content agency website built with **Next.js 15** and **TypeScript**.
+
+The website represents a modern content agency that helps founders build authority through cinematic storytelling, strategic content systems, AI-powered production, and performance-driven growth.
+
+Rather than simply showcasing services, Elevar is designed as a high-converting landing page that communicates trust, premium quality, and measurable business outcomes.
 
 ---
 
-## 🎨 Brand Colors & Design
+# ✨ Features
 
-### Brand Colors
-Primary: #1a1a1a (Dark)
-Accent: #c9a84c (Gold)
-Background: #ffffff (White)
-
-
-### Typography
-- **Headings**: Inter / System fonts
-- **Body**: Inter / System fonts
-
-### Tagline
-> "Content systems for founders"
+- 🎨 Modern premium UI
+- ⚡ Built with Next.js 15 App Router
+- 📱 Fully responsive design
+- 🎬 Portfolio showcase
+- 📈 Growth-focused landing page
+- 📅 Book Call CTA
+- 🌙 Clean typography & animations
+- 🧩 Modular React components
+- 🚀 Optimized performance
+- 🔍 SEO friendly
 
 ---
 
-## 🛠️ Services We Offer
+# 🎯 Mission
+
+> Helping founders break scale with premium strategy, cinematic storytelling, and efficient content systems.
+
+---
+
+# 💡 Philosophy
+
+We don't just create beautiful content.
+
+We engineer content systems that generate:
+
+- Authority
+- Trust
+- Reach
+- Leads
+- Revenue
+
+Everything—from scripting to publishing—is designed around business growth.
+
+---
+
+# 📊 Current Stats
+
+| Metric | Value |
+|---------|------:|
+| Brands Scaled | **2+** |
+| Total Views | **35K+** |
+| Founder | **Karthikeyan K** |
+
+---
+
+# 🛠 Services
 
 | Service | Description |
-|---------|-------------|
-| **Video Editing** | Retention-focused editing that makes every scrolling idea easier to understand |
-| **Content Strategy** | Custom roadmaps for founders who need authority without content chaos |
-| **AI Production** | AI-assisted scripts, ideation, research, and campaign systems with human taste |
-| **Social Management** | Full-scale calendar, publishing, and platform care across your active channels |
-| **Brand Content** | Conversion-minded content designed to sell products and services directly |
-| **Custom Bundle** | A tailored solution for unique growth goals |
+|----------|-------------|
+| 🎬 Video Editing | Retention-focused editing designed for modern attention spans |
+| 📈 Content Strategy | Growth roadmaps built around authority and positioning |
+| 🤖 AI Production | AI-assisted ideation, scripting, research, and workflows |
+| 📱 Social Media Management | Publishing, scheduling, and platform optimization |
+| 🎯 Brand Content | Content designed to convert viewers into customers |
+| 📦 Custom Bundle | Tailored content systems for unique business goals |
 
 ---
 
-## 🔄 Our 8-Step Process
+# 🔄 Workflow
 
-| # | Step | Description |
-|---|------|-------------|
-| 01 | **Business Discovery** | Unpack goals, offer, ICP, conversion gaps, and the brand voice that should lead the system |
-| 02 | **Strategy** | A content and positioning plan built around sharp hooks, repeatable themes, and offer clarity |
-| 03 | **Script Writing** | Psychology-backed scripts focused on retention, authority, and action |
-| 04 | **Pre-Production** | Shot lists, references, assets, and timelines prepared before production starts |
-| 05 | **Production** | High-end capture direction using practical lighting, clean frames, and energetic pacing |
-| 06 | **Post Production** | Editing, sound design, color, motion graphics, and fast platform-ready exports |
-| 07 | **Publishing** | SEO optimization, thumbnails, captions, scheduling, and reach-focused rollout |
-| 08 | **Growth Analysis** | Performance audits that make each month smarter than the last |
+Elevar follows an 8-step production pipeline.
 
----
-
-## 🚀 Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| **Next.js 15** | React framework for production |
-| **TypeScript** | Static type checking |
-| **React** | UI library |
-| **CSS** | Custom styling |
-| **Git LFS** | Large file management |
+| Step | Process |
+|------|----------|
+| 01 | Business Discovery |
+| 02 | Strategy |
+| 03 | Script Writing |
+| 04 | Pre-Production |
+| 05 | Production |
+| 06 | Post Production |
+| 07 | Publishing |
+| 08 | Growth Analysis |
 
 ---
 
-## 📦 Installation
+# 🖥 Tech Stack
 
-### Prerequisites
-- Node.js 18+ installed
-- npm, yarn, or pnpm package manager
+| Technology | Usage |
+|------------|------|
+| Next.js 15 | React Framework |
+| React 18 | UI Library |
+| TypeScript | Type Safety |
+| CSS | Styling |
+| Git LFS | Video Asset Storage |
 
-### Setup
+---
 
-#bash
-# Clone the repository
+# 📂 Project Structure
+
+```
+Elevar
+│
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── globals.css
+│   └── components/
+│       ├── Navigation.tsx
+│       ├── Hero.tsx
+│       ├── Services.tsx
+│       ├── Process.tsx
+│       ├── Testimonials.tsx
+│       ├── Footer.tsx
+│       └── ChatbotButton.tsx
+│
+├── assets/
+│   └── selected-work/
+│       ├── Family friend_Out.mp4
+│       ├── Final Out Tiles.mp4
+│       └── NanoTiles-.mp4
+│
+├── public/
+│   ├── favicon.ico
+│   └── images/
+│
+├── next.config.mjs
+├── tsconfig.json
+├── package.json
+├── package-lock.json
+├── .gitignore
+└── README.md
+```
+
+---
+
+# 🎨 Brand Identity
+
+## Colors
+
+| Color | Hex |
+|--------|-----|
+| Primary | `#1A1A1A` |
+| Accent | `#C9A84C` |
+| Background | `#FFFFFF` |
+
+---
+
+## Typography
+
+- **Headings:** Inter
+- **Body:** Inter
+- **Fallback:** System Fonts
+
+---
+
+## Brand Tagline
+
+> **Content systems for founders.**
+
+---
+
+# 🚀 Getting Started
+
+## Prerequisites
+
+Install:
+
+- Node.js 18+
+- npm
+
+or
+
+- pnpm
+
+or
+
+- yarn
+
+---
+
+## Clone Repository
+
+```bash
 git clone https://github.com/nameisvignesh/Elevar.git
+
 cd Elevar
+```
 
-# Install dependencies
+---
+
+## Install Dependencies
+
+Using npm
+
+```bash
 npm install
-# or
-yarn install
+```
 
-# Run development server
+Using Yarn
+
+```bash
+yarn
+```
+
+Using pnpm
+
+```bash
+pnpm install
+```
+
+---
+
+## Start Development Server
+
+```bash
 npm run dev
-# or
+```
+
+or
+
+```bash
 yarn dev
+```
 
-# Open browser at http://localhost:3000
+or
 
-##🏗️ Build for Production
-# Create production build
+```bash
+pnpm dev
+```
+
+Visit:
+
+```
+http://localhost:3000
+```
+
+---
+
+# 🏗 Production Build
+
+Create production build
+
+```bash
 npm run build
+```
 
-# Start production server
+Run production server
+
+```bash
 npm start
+```
 
-##🎬 Managing Videos with Git LFS
-# Track new video files
+---
+
+# 🎬 Managing Video Assets
+
+Elevar stores video files using **Git LFS**.
+
+Track videos:
+
+```bash
 git lfs track "*.mp4"
+
 git lfs track "*.mov"
+```
 
-# Add and commit
-git add assets/selected-work/new-video.mp4
-git commit -m "Add new video asset"
+Commit
+
+```bash
+git add .
+
+git commit -m "Add new video assets"
+
 git push origin main
-#Note: GitHub LFS free tier: 1 GB storage. Current usage: ~778 MB.
+```
 
-## 📊 Performance Metrics
+> **Current LFS Usage**
+>
+> Storage Used: **~778 MB**
+>
+> Free Tier Limit: **1 GB**
+
+---
+
+# 📈 Performance
 
 | Metric | Status |
 |--------|--------|
-| **SEO** | ✅ Optimized |
-| **Mobile Responsive** | ✅ Yes |
-| **Core Web Vitals** | ✅ Green |
-| **Accessibility** | ✅ Good |
-| **Load Speed** | ✅ Fast |
+| SEO | ✅ Optimized |
+| Accessibility | ✅ Good |
+| Responsive | ✅ Mobile Friendly |
+| Core Web Vitals | ✅ Passing |
+| Performance | ✅ Fast |
+| Best Practices | ✅ Modern |
+
+---
+
+# 📸 Website Sections
+
+- Hero
+- Selected Work
+- Services
+- Process
+- Testimonials
+- FAQ
+- Contact
+- Footer
+
+---
+
+# 📦 Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Development server |
+| `npm run build` | Production build |
+| `npm start` | Start production server |
+| `npm run lint` | Run ESLint |
+
+---
+
+# 🌟 Future Improvements
+
+- CMS Integration
+- Blog
+- Dark/Light Theme
+- Analytics Dashboard
+- AI Chat Assistant
+- Case Studies
+- Multi-language Support
+- Client Portal
+- Booking System
+- Newsletter Integration
+
+---
+
+# 👨‍💻 Founder
+
+**Karthikeyan K**
+
+Founder & CEO
+
+Elevar
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+
+2. Create your feature branch
+
+```bash
+git checkout -b feature/NewFeature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push the branch
+
+```bash
+git push origin feature/NewFeature
+```
+
+5. Open a Pull Request
+
+---
+
+# 📄 License
+
+This project is licensed under the **Apache-2.0 License**.
+
+Feel free to use, modify, and distribute this project under the terms of the license.
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and supports future development.
+
+---
+
+<p align="center">
+Made with ❤️ using Next.js, React & TypeScript
+</p>
+
+<p align="center">
+<b>Elevar — Content systems for founders.</b>
+</p>
