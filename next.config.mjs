@@ -1,13 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  output: "export",  // ✅ Move this to the top level
+  output: "export",
+
+  basePath: "/Elevar",
+  assetPrefix: "/Elevar/",
+
   images: {
-    unoptimized: true,  // Required for static export
+    unoptimized: true,
   },
-  experimental: {
-    optimizePackageImports: ['lucide-react']
-  }
+
+  trailingSlash: true,
 };
 
 export default nextConfig;
